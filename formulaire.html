@@ -2,19 +2,68 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <link href="agenda.css">
+        <link rel="stylesheet" href="agenda.css">
+        <link rel="icon" type="image/png" href="images/agenda_logo.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;500&display=swap">
     </head>
     <body>
-        <header>
-
+        <header>   
+                <strong>
+                <div id="header_texte">
+                    <div>
+                    <h1>Agenda Web</h1>
+                    </div>
+                    </strong>
+                    <div id="h2">
+                    <h2><button class="button" style="button"> <a class="link" href="agenda.html">Accueil</button>&emsp; &emsp;</a></h2>
+                    <h2><button class="button" style="button"> <a class="link" href="formulaire.html">Formulaire</button></a></h2>
+                    </div>
+                    <!-- <div id="logo"> -->    
+                    <!-- <img src="images/agenda_logo.png"> -->
+                    </div>
+                </div>
         </header>
 
         <main>
-            
+            <br>
+            <form>
+                <div class="txtform">
+                    <div>
+                        <label for="name">Jour :</label>
+                        <input type="text" id="name" name="user_name" placeholder="jj/mm/aaaa">
+                    </div>
+                    <div>
+                        <label for="name">Heure :</label>
+                        <input type="text" id="name" name="user_name" placeholder="hh:mm">
+                    </div>
+                    <div>
+                        <label for="mail">Evenement :</label>
+                        <input type="email" id="mail" name="user_mail" placeholder="nom de l'évènment">
+                    </div>
+                    <div>
+                        <label for="msg">Description :</label>
+                        <textarea id="msg" name="user_message" placeholder="description de l'évènement"></textarea>
+                    </div>
+                    <div class="boutton">
+                        <button type="submit">Envoyer</button>
+                    </div>  
+                </div>          
+            </form>
+            <br>
         </main>
 
         <footer>
-
+            <div id="header_texte">
+                <div class="txtform">
+                    <p><b>Contact :</b></p>
+                    <p><b>Réseaux Sociaux :</b>
+                    <br>Twitter
+                    <br>Instagram</p>
+                    <p><b>Email :</b> laura.rodriguez@laplateforme.io </p>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
