@@ -1,19 +1,18 @@
 body{
-    /* margin-top: -43px; */
+    background-color: #291f1e;
 }
 #header_texte{
-    /* padding-bottom: -50em; */
-    margin-top: 0px;
+    color: blanchedalmond;
 }
 header{
-    background-color: coral;
-    /* height: 10em; */
+    background-color: #291f1e;
 }
 main{
-    background-color: cornflowerblue;
+    background-color: #f64740;
 }
 footer{
-    background-color: crimson;
+    background-color: #291f1e;
+    padding-top: 10em;
 }
 
 h1{
@@ -26,21 +25,26 @@ h1{
     font-family: 'Kanit', sans-serif;
     display: flex;
     justify-content: center;
-    /* font-size: 150%; */
-    /* height: 40em; */
-    /* background-color: blue; */
 }
 .link{
     text-decoration: none;
-    color: black;
+    color: blanchedalmond;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
 }
 table{
     font-family: 'Palanquin', sans-serif;
     border-collapse: collapse;
-    /* margin-top: 5em; */
+    display: flex;
+    justify-content: center;
 }
 td{
     border: 1px solid black;
     padding:30px;
-    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.espacement{
+    color: #f64740;
 }
