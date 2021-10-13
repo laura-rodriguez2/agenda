@@ -87,6 +87,25 @@ td{
 }
 /* fin tableau */
 
+/* case */
+
+.casemidi1{
+  background-color: rgb(255, 188, 134);
+}
+.casemidi{
+    background-color: blanchedalmond;
+}
+.caseLundi{
+    background-color: rgb(255, 188, 134);
+}
+.reunion{
+    background-color:rgb(128, 127, 206);
+}
+.Reunion2{
+    background-color: rgb(89, 88, 151);
+}
+
+/* fin case */
 
 /* formulaire */
 form {
